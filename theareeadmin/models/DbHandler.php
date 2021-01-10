@@ -1,10 +1,11 @@
 <?php
 
-$dev_type__ = 'dev';
+$dev_type__ = 'pro';
 $server__  =  $dev_type__ === "dev" ? "localhost" : "us-cdbr-east-02.cleardb.com";
-$username__  =  $dev_type__ === "dev" ? "root" : "b3a3ca92797df1";
-$password__  =  $dev_type__ === "dev" ? "" : "52571d80";
-$dbname__  =  $dev_type__ === "dev" ? "areh" : "heroku_21f298b1c8df782";
+$username__  =  $dev_type__ === "dev" ? "root" : "b8de36b3f9563e";
+$password__  =  $dev_type__ === "dev" ? "" : "aa8a5bd6";
+$dbname__  =  $dev_type__ === "dev" ? "areh" : "heroku_ee2c0bad13059ef";
+
 
 define("SERVERNAME",$server__);
 define("DBNAME",$dbname__);
