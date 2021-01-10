@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><?php 
+    $companyName = "Aree";
+    echo $companyName." "." | AboutUs"?></title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">     
+    <link rel="stylesheet" href="css/template-style.css">
+    <link rel="icon" href="img/logo.jpg" type="image/jpeg" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
+  </head>
+  
+  <body class="size-1140">
+  	<!-- PREMIUM FEATURES BUTTON -->
+  	<a target="_blank" class="hide-s" href="../template/eleganter-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
+    <!-- HEADER -->
+    <?php include "includes/head.php"; ?>
+    
+    <!-- MAIN -->
+    <main role="main">
+      <!-- Content -->
+      <article>
+        <header class="section background-dark">
+          <div class="line">        
+            <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">About Us</h1>
+            <p class="margin-bottom-0 text-size-16">We touch lifes through our talents.</p>
+          </div>  
+        </header>
+        <div class="section background-white"> 
+          <div class="line">  
+            <h2 class="text-size-40 margin-bottom-30">Investigationes demonstraverunt lectores</h2>
+            <hr class="break-small background-primary margin-bottom-30">
+            <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros 
+            et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            </p> 
+            <blockquote class="margin-top-bottom-20">
+              <h3 class="text-size-20 text-line-height-1 margin-bottom-15">Mirum est notare quam littera gothica</h3>
+              Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+            </blockquote>
+            
+            <div class="line margin-top-30">
+              <div class="margin">
+                <div class="s-12 m-6 l-6">
+                  <img src="img/1.jpg" alt="">
+                  <p class="margin-top-30">
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; 
+                  est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+                  Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc 
+                  putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc 
+                  nobis videntur parum clari, fiant sollemnes in futurum.
+                  </p>
+                </div>
+                <div class="s-12 m-6 l-6">
+                  <img src="img/10.jpg" alt="">
+                  <p class="margin-top-30">
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; 
+                  est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+                  Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc 
+                  putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc 
+                  nobis videntur parum clari, fiant sollemnes in futurum.
+                  </p>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div> 
+      </article>
+    </main>
+    
+    <!-- FOOTER -->
+    <?php  include "includes/foot.php"; ?>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+  </body>
+</html>
